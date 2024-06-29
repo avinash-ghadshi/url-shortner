@@ -1,0 +1,8 @@
+{
+   "app": {
+      "server":"localhost",
+      "port":"9090",
+      "proxy": ["127.0.0.1"],
+      "defaultexpiry": 15
+   }
+}
