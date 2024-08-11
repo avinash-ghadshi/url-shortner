@@ -1,11 +1,17 @@
+label{
+    padding-bottom: 4px;
+}
 .container {
-    max-width: 75%;
+    max-width: 80%;
     max-height: 75%;
     margin: 0 auto;
     background-color: #9acdec;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* --shadow: rgb(112 200 235 / 40%) 5px 5px, rgba(46, 185, 240, 0.3) 10px 10px, rgba(46, 162, 240, 0.2) 15px 15px, rgba(71, 209, 243, 0.1) 20px 20px, rgba(1, 247, 255, 0.05) 25px 25px; */
+    /* --shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    --shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: var(--shadow);
     font-family: Arial, sans-serif;
 }
 
