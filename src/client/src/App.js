@@ -15,7 +15,7 @@ const App = () => {
 
                     {/* Protected route for home page */}
                     {/* <ProtectedRoute path="/home" element={<Home />} /> */}
-                    <Route path="/home" element={<Home />} />
+                    <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
 
                     {/* Default route to redirect to home */}
                     <Route path="/" element={<Navigate to="/home" />} />
