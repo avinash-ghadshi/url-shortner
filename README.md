@@ -28,13 +28,13 @@ cd url-shortener
     ./urlshortener
     ```
 
-If the server fails to run by hitting the above command, follow the steps below to rebuild the application:
-    1. Go to the url-shortener/src folder:
-    2. Rebuild the application
-```sh
-go build -o ../bin/server/urlshortener server.go routers.go
-```
-3. Navigate back to the server directory and run the server again
+	If the server fails to run by hitting the above command, follow the steps below to rebuild the application:
+   	- Go to the url-shortener/src folder:
+	- Rebuild the application
+	```sh
+	go build -o ../bin/server/urlshortener server.go routers.go
+	```
+	- Navigate back to the server directory and run the server again
 	```sh
 	cd ../bin/server
 	./urlshortener
