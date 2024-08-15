@@ -75,7 +75,7 @@ const Home = () => {
                     />
                 </div>
                 <button type="submit"> Generate </button>
-                <span class="arrow result">&gt;</span>
+                <span className="arrow result">&gt;</span>
                 <div style={fieldContainerStyle}>
                     <label htmlFor="result">Result:</label>
                     <textarea
